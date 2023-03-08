@@ -30,8 +30,11 @@ public class PledgeController {
 
     @GetMapping("/pledges")
     public List<Pledge> getAllPledges() {
+        pledges.add(new Pledge(10, "bert", "yhoyoyoy"));
+        pledges.add(new Pledge(11, "bert", "yhoyoyoy"));
         return pledges;
     }
+
 
     @GetMapping("/pledges/{id}")
     public Pledge getOnePledge(@PathVariable("id") long pledgeId) {

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PledgeToVote.iml" filepath="$PROJECT_DIR$/.idea/modules/PledgeToVote.iml" group="PledgeToVote" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PledgeToVote_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PledgeToVote_main.iml" group="PledgeToVote" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PledgeToVote_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PledgeToVote_test.iml" group="PledgeToVote" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PledgeToVote.iml" filepath="$PROJECT_DIR$/.idea/modules/PledgeToVote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PledgeToVote.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PledgeToVote.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PledgeToVote.test.iml" filepath="$PROJECT_DIR$/.idea/modules/PledgeToVote.test.iml" />
     </modules>
   </component>
 </project>

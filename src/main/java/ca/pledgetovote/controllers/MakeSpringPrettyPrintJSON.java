@@ -8,20 +8,20 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 import java.util.List;
 
 /**
- * Make the application return pretty-printed JSON (easier to debug)
- * COPIED FROM: https://stackoverflow.com/questions/36119852/spring-boot-actuator-pretty-print-json
+ * This was designed to make SpringBoot pretty-print JSON.
+ * However, a simpler way is to use the /src/main/resources/application.properties file.
  */
-@Configuration
+//@Configuration
 public class MakeSpringPrettyPrintJSON extends WebMvcConfigurationSupport {
-
-    @Override
-    protected void extendMessageConverters( List<HttpMessageConverter<?>> converters ) {
-        for ( HttpMessageConverter<?> converter : converters ) {
-            if ( converter instanceof MappingJackson2HttpMessageConverter ) {
-                MappingJackson2HttpMessageConverter jacksonConverter =
-                        (MappingJackson2HttpMessageConverter) converter;
-                jacksonConverter.setPrettyPrint( true );
-            }
-        }
-    }
+//
+//    @Override
+//    protected void extendMessageConverters( List<HttpMessageConverter<?>> converters ) {
+//        for ( HttpMessageConverter<?> converter : converters ) {
+//            if ( converter instanceof MappingJackson2HttpMessageConverter ) {
+//                MappingJackson2HttpMessageConverter jacksonConverter =
+//                        (MappingJackson2HttpMessageConverter) converter;
+//                jacksonConverter.setPrettyPrint( true );
+//            }
+//        }
+//    }
 }
